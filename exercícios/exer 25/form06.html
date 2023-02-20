@@ -9,19 +9,23 @@
 <body>
     <h1>Exemplo de Formulário</h1>
     <form action="cadastro.php" method="post">
-        <p>
-            <label for="icor">Cor:</label>
-            <input type="color" name="cor" id="icor">
-        </p>
-        <p>
-            <label for="inivel">Nível de satisfação:</label>
-            <input type="range" name="range" id="inivel" min="1" max="10">
-        </p>
-        <p>
-            <label for="ifile">Fote de perfil</label>
-            <input type="file" name="foto" id="ifile">
-        </p>
+        <fieldset>
+            <legend>Dados</legend>
+            <p>
+                <label for="icor">Cor:</label>
+                <input type="color" name="cor" id="icor">
+            </p>
+            <p>
+                <label for="inivel">Nível de satisfação:</label>
+                <input type="range" name="range" id="inivel" min="1" max="10">
+            </p>
+            <p>
+                <label for="ifile">Fote de perfil</label>
+                <input type="file" name="foto" id="ifile">
+            </p>
+       
         <input type="submit">
+    </fieldset>
     </form>
     
 </body>
